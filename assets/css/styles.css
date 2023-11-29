@@ -32,12 +32,26 @@ body{
     border:2px ridge black;
    
     box-shadow: 0 0 40px black ;
+    /* width: 10px;
+    height: 10px;
+    background-color: transparent;
+    margin-top: 10px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border:2px ridge black; */
+    transition: width 1s, height 1s, transform 1s;
     
 }
 .form:hover{
     /* opacity: 0.5; */
     border:2px solid rgb(0, 195, 255);
     box-shadow: 0 0 40px rgb(0, 195, 255);
+    transform: rotate3d();
+    
+
 }
 .main{
     width: 100%;
@@ -95,9 +109,13 @@ body{
     border:2px solid rgb(0, 204, 0);
     box-shadow: 0 0 40px rgb(0, 204, 0);
 }
+   
+    
 .button:active{
     opacity: 0.5;
     box-shadow: 0 0 20px black;
+   
+    
 }
 .footer{
     width: 100%;
